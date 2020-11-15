@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+:root{
+    --akcent_color:hsl(157, 9%, 30%);
+    --secont_akcent_color:hsl(213, 64%, 89%);
+    --very_dark_violet:hsl(272, 24%, 74%);
+    --header_background:rgb(15, 17, 43);
+
+}
+body{
+    font-family:'Karla';
+}
+.container{
+    margin:0 auto;
+    max-width: 1440px;
+}
+.buttons{
+    padding: 10px 20px;
+    color:white;
+    border: 2px solid white;
+    background-color: transparent;
+    text-transform: uppercase;
+    &:hover{
+        background-color: whitesmoke;
+        color: black;
+        cursor: pointer;
+    }
+}
+.title{
+    font-size:3rem ;
+    font-family: 'DM Serif Display', serif;
+    line-height: 3rem;
+    letter-spacing: 3px;
+    color: white;
+
+   
+    
+}

@@ -1,2 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+:root {
+  --akcent_color:hsl(157, 9%, 30%);
+  --secont_akcent_color:hsl(213, 64%, 89%);
+  --very_dark_violet:hsl(272, 24%, 74%);
+  --header_background:rgb(15, 17, 43);
+}
+
+body {
+  font-family: "Karla";
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1440px;
+}
+
+.buttons {
+  padding: 10px 20px;
+  color: white;
+  border: 2px solid white;
+  background-color: transparent;
+  text-transform: uppercase;
+}
+.buttons:hover {
+  background-color: whitesmoke;
+  color: black;
+  cursor: pointer;
+}
+
+.title {
+  font-size: 3rem;
+  font-family: "DM Serif Display", serif;
+  line-height: 3rem;
+  letter-spacing: 3px;
+  color: white;
+}
+
+.menu .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+}
+.menu .container .menu__list {
+  display: flex;
+  list-style: none;
+}
+
+.menu__list_elements {
+  display: flex;
+  align-items: center;
+  margin: 0 30px;
+  color: var(--akcent_color);
+  font-weight: bold;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+.menu__list_elements:last-child {
+  border: 1px solid black;
+  padding: 10px 20px;
+}
+.menu__list_elements:last-child:hover {
+  background-color: black;
+  color: var(--very_dark_violet);
+  transition: 0.2s linear;
+}
+.menu__list_elements:hover {
+  color: var(--secont_akcent_color);
+}
+
+.offer {
+  background-color: var(--header_background);
+}
+
+.offer__container {
+  display: flex;
+  padding: 150px 0;
+  justify-content: space-between;
+}
+.offer__container .offer__title {
+  width: 40%;
+}
+.offer__container .offer__title > * {
+  margin-bottom: 40px;
+}
+.offer__container .offer__title::before {
+  display: block;
+  content: "";
+  color: white;
+  height: 1px;
+  width: 100px;
+  background-color: white;
+  margin-bottom: 40px;
+}
+.offer__container .offer__content {
+  color: #c4bebe;
+  line-height: 25px;
+}
+
+.family__picture {
+  position: absolute;
+  left: 60%;
+}
 /*# sourceMappingURL=main.css.map */
