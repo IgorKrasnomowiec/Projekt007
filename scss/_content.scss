@@ -1,0 +1,59 @@
+.about__us {
+    padding-top: 308px;
+}
+.aboutus__icons{
+    display: flex;
+    gap: 60px;
+}
+.aboutus__title{
+    .title{
+     color:var(--we_are_different_color) ;
+     padding: 100px 0px;
+     font-family:var(--dm-font) ;
+     
+
+    }
+    &::before{
+        @include line();
+        background-color: var(--header_background);
+
+    }
+}
+
+.aboutus__icons__content{
+   >*{
+margin: 10px 0px;
+
+   }
+   
+    .title__icon{
+        font-family: var(--dm-font);
+        font-weight: bold; 
+        font-size: 1.75rem;
+      
+       
+    }
+    .content__icons{
+        font-family:'Karla';
+        color: var(--secont_akcent_color);
+    }
+
+}
+.about__box{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    padding:60px 50px;
+    background-color: var(--aboutus__background);
+    margin: 100px 0 ;
+    overflow: hidden;
+    
+}
+.weird3{
+    position:absolute;
+    top:0px;
+    right: 0px;
+    
+}
+

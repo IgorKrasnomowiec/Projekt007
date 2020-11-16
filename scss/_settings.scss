@@ -4,10 +4,14 @@
     box-sizing: border-box;   
 }
 :root{
+    --dm-font:'DM Serif Display', serif;
     --akcent_color:hsl(157, 9%, 30%);
-    --secont_akcent_color:hsl(213, 64%, 89%);
+    --secont_akcent_color:hsl(210, 5%, 70%);
     --very_dark_violet:hsl(272, 24%, 74%);
     --header_background:rgb(15, 17, 43);
+    --we_are_different_color:rgb(14, 13, 13) ;
+    --aboutus__background:rgb(12, 15, 61);
+    --footer__background:rgb(211, 207, 207);
 
 }
 body{
@@ -39,3 +43,12 @@ body{
    
     
 }
+@mixin line() {
+    content: "";
+    display: block;
+    height: 1px;
+    width: 150px;
+
+}
+
+
