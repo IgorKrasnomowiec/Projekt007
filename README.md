@@ -1,6 +1,7 @@
-# Frontend Mentor - Insure landing page
+https://igorkrasnomowiec.github.io/Projekt007/.
 
-![Design preview for the Insure landing page coding challenge](./design/desktop-preview.jpg)
+Training SITE 
+_________________________________________
 
 ## Welcome! 👋
 
